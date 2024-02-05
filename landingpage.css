@@ -1,0 +1,212 @@
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eee;
+            color: #333;
+        }
+
+       main{
+            padding-top: 50px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        
+        }
+
+        header {
+            height: 80px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            min-height: 75px;
+            padding: 0px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color:  #1b1b32;
+;        
+        }
+        nav{
+            display: block;
+        }
+        nav > ul {
+            width: 35vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+}
+         .nav-link{
+            color: #dfdfe2;;
+         }
+        #page-wrapper{
+            position: relative;
+        }
+
+        li{
+            list-style: none;
+        }
+        a {
+            color: #000;
+            text-decoration: none;
+           }
+
+        .logo{
+            color: #f1be32;
+            display: flex;
+            position: relative;
+
+        }
+
+        #features .desc {
+            padding: auto;
+            margin: 1rem;
+            display: flex;
+            flex: 1;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            flex-direction: column;
+            justify-content: center;
+            /*height: 125px;
+            width: 50vw;*/
+            padding: 5px;
+            flex-wrap: wrap;  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .service {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: calc(100% / 3);
+            margin: 10px;
+            border: 1px solid #000;
+            border-radius: 3px;
+
+        }
+        .service > .level {
+            background-color: #ddd;
+            color: black;
+            padding: 15px 0;
+            width: 100%;
+            text-transform: uppercase;
+            font-weight: 700;
+}
+         #services{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+}
+
+         @media (max-width: 800px) {
+           #services{
+            flex-direction: column;
+           }
+         .service {
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+         }
+       }
+
+
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #357ae8;
+        }
+
+        
+
+        
+        form {
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4285f4;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #357ae8;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+
+            .feature {
+                width: 100%;
+            }
+        }
+       footer {
+          margin-top: 30px;
+          background-color: #ddd;
+          padding: 20px;
+          }
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+    width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
